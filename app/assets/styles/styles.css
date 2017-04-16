@@ -1,0 +1,14 @@
+$col: #595830;
+
+body {
+  color: $col;
+  border: 255px;
+  columns: 300px 2;
+}
+
+.box {
+  a {
+    display: block;
+    padding: 10px;
+  }
+}
