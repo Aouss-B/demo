@@ -1338,3 +1338,7 @@ a {
       background-color: transparent
   }
   }
+
+.reveal-item {
+  opacity: 0;
+}
