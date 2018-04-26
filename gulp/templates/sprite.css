@@ -3,11 +3,11 @@
 {{#shapes}}
   {{#first}}
     .icon {
-      background-image: url('/assets/images/sprites/css/{{{sprite}}}');
+      background-image: url('../../assets/images/sprites/css/{{{sprite}}}');
     }
 
     .no-svg .icon {
-      background-image: url('/assets/images/sprites/css/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
+      background-image: url('../../assets/images/sprites/css/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
     }
   {{/first}}
 
